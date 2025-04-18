@@ -1,0 +1,321 @@
+-- New draggable Orion Lib script for hub creations!
+local OrionLib = loadstring(game:HttpGet(('https://pastebin.com/raw/WRUyYTdY')))()
+
+
+local Window = OrionLib:MakeWindow({
+    Name = "Private Gui By Gerry 1,5",
+    HidePremium = false,
+    SaveConfig = true,
+    ConfigFolder = "Private Gui" -- Put the name of your hub or script here!
+})
+
+print("Successfully executed.") -- Just a debug
+
+local Tab = Window:MakeTab({
+    Name = "Info",
+    Icon = "rbxassetid://1",
+    PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+    Name = "--- INFO ----"
+})
+
+local playerName = game.Players.LocalPlayer.Name
+
+Tab:AddButton({
+    Name = "Welcome " .. playerName .. "! ",
+    Callback = function()
+    end
+})
+
+local Tab = Window:MakeTab({
+    Name = "GUI",
+    Icon = "rbxassetid://1",
+    PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+    Name = "--- GUI ---"
+})
+
+Tab:AddButton({
+    Name = "Project SonicElijahmania",
+    Callback = function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Hanif290/YoThereSkibidiSigma68/refs/heads/main/Yoshi681SkibidiBoy"))()
+  end    
+})
+
+Tab:AddButton({
+    Name = "Exsernew",
+    Callback = function()
+
+loadstring(game:HttpGet("https://pastebin.com/raw/zDEnCm4E"))()
+  end    
+})
+
+Tab:AddButton({
+    Name = "T0PK3K 4.0",
+    Callback = function()
+
+loadstring(game:HttpGet("https://rawscripts.net/raw/i-topk3k-test-29602"))()
+  end    
+})
+
+Tab:AddButton({
+    Name = "Elysian hub V2",
+    Callback = function()
+    
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ScrewedABunch/BlockDragonHead_Scripts/refs/heads/main/ElysianV2.txt"))()
+  end    
+})
+
+Tab:AddButton({
+    Name = "Dominant Executor",
+    Callback = function()
+ 
+loadstring(game:HttpGet("https://pastebin.com/raw/B8BzBdf0"))()
+  end    
+})
+
+Tab:AddButton({
+    Name = "Ultimate Trolling Gui",
+    Callback = function()
+
+loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Ultimate-trolling-gui-15461"))()
+  end    
+})
+
+Tab:AddButton({
+    Name = "C00LGUI V3 EDITED BY VERIFIED",
+    Callback = function()
+    
+loadstring(game:HttpGet("https://pastebin.com/raw/ucuPtN97"))()
+  end    
+})
+
+Tab:AddButton({
+    Name = "SG GUI RED EDITON",
+    Callback = function()
+   
+loadstring(game:HttpGet("https://pastebin.com/raw/84WzjXr8"))()
+  end    
+})
+
+Tab:AddButton({
+    Name = "Project Ligma",
+    Callback = function()
+
+loadstring(game:HttpGet('https://pastebin.com/raw/MUfsexG1'))()
+  end    
+})
+
+Tab:AddButton({
+    Name = "Elysian ",
+    Callback = function()
+
+loadstring(game:HttpGet('https://pastebin.com/raw/CsFAQyXr'))()
+  end    
+})
+
+Tab:AddButton({
+    Name = "Project lua",
+    Callback = function()
+
+loadstring(game:HttpGet("https://pastebin.com/raw/RUEGs9pa"))()
+  end    
+})
+
+Tab:AddButton({
+    Name = "dreambull gui",
+    Callback = function()
+
+loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-FE-Bypass-idk-32121"))()
+  end    
+})
+
+Tab:AddButton({
+    Name = "POLARIA",
+    Callback = function()
+ 
+loadstring(game:HttpGet("https://pastefy.app/agqEB2qs/raw",true))()
+  end    
+})
+
+Tab:AddButton({
+    Name = "c00lkidd reawakened gui",
+    Callback = function()
+
+loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-C00lkidd-Reawaneked-Back-22787"))()
+  end    
+})
+
+Tab:AddButton({
+    Name = "PRIVATE GUI By 00de0l",
+    Callback = function()
+
+loadstring(game:HttpGet("https://ghostplayer352.github.io/Authorization/"))()Ioad("0d730785a30393bb8bc13e9a8d72a0d3")
+  end    
+})
+
+Tab:AddButton({
+    Name = "project ligma 2",
+    Callback = function()
+
+loadstring(game:HttpGet('https://pastebin.com/raw/Rp3p2ZAa'))()
+  end    
+})
+
+Tab:AddButton({
+    Name = "Erased_luah4x gui private",
+    Callback = function()
+
+loadstring(game:HttpGet("https://pastefy.app/zEz4DpKs/raw"))()
+  end    
+})
+
+Tab:AddButton({
+    Name = "private hub 1,2 ( By Sigmaz)",
+    Callback = function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/danialjdjsj/Jsksowjsbsiwiwbsisjwjddiodjebsbsisnebejnsbsueiwhsbdwjssbdikwsjbshdisjskwnsbdjsuiss/refs/heads/main/Sjejeushshsjsjshdjsjebdudihdhdjekehesihdeueisjhshsusjsjwj"))()
+  end    
+})
+
+Tab:AddButton({
+    Name = "yong shelon version 007n7",
+    Callback = function()
+
+loadstring(game:HttpGet("https://pastebin.com/raw/rSKeijCz"))()
+  end    
+})
+
+Tab:AddButton({
+    Name = "k00pgui v3",
+    Callback = function()
+
+loadstring(game:HttpGet("https://rawscripts.net/raw/Client-Replication-K00gui-v3-10274"))()
+  end    
+})
+
+Tab:AddButton({
+    Name = "Ro-xploit",
+    Callback = function()
+         		loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-RoXploit-by-KrystalTeam-9328"))()
+  end    
+})
+
+Tab:AddButton({
+    Name = "stummy guns ( Just Only A Gui)",
+    Callback = function()
+
+loadstring(game:HttpGet("https://pastebin.com/raw/3XPaYv08"))()
+  end    
+})
+
+local Tab = Window:MakeTab({
+    Name = "Scripts",
+    Icon = "rbxassetid://1",
+    PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+    Name = "Scripts & Players here"
+})
+
+Tab:AddButton({
+    Name = "xester ( r6 i guess?)",
+    Callback = function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Icalock/Server/refs/heads/main/Xester%20FD.txt", true))()
+  end    
+})
+
+Tab:AddButton({
+    Name = "bomb vest v2",
+    Callback = function()
+
+loadstring(game:HttpGet("https://pastefy.app/ur8n4dc6/raw"))()
+  end    
+})
+
+Tab:AddButton({
+    Name = "titan ( r6) ",
+    Callback = function()
+
+loadstring(game:HttpGet("https://pastefy.app/jR7Pxpdq/raw"))()
+  end    
+})
+
+Tab:AddButton({
+    Name = "big smoke",
+    Callback = function()
+    
+loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaGunsX/LuasLegacyScripts/refs/heads/main/%5BRecharacter%5D%20Big%20Smoke"))()
+  end    
+})
+
+Tab:AddButton({
+    Name = "dual tentacle blue laser demon",
+    Callback = function()
+    
+loadstring(game:HttpGet("https://pastefy.app/kAIcxjS5/raw"))()
+  end    
+})
+
+Tab:AddButton({
+    Name = "MLG gun",
+    Callback = function()
+
+loadstring(game:HttpGet("https://rawscripts.net/raw/Client-Replication-the-ss-loadstring-script-27393"))()
+  end    
+})
+
+Tab:AddButton({
+    Name = "Mario.exe",
+    Callback = function()
+
+loadstring(game:HttpGet("https://pastebin.com/raw/gMtScLkU"))()
+  end    
+})
+
+Tab:AddButton({
+    Name = "Shedletsky",
+    Callback = function()
+
+loadstring(game:HttpGet("https://pastefy.app/xh5ZdIa3/raw",true))((
+  end    
+})
+
+Tab:AddButton({
+    Name = "Lua Hammer",
+    Callback = function()
+
+loadstring(game:HttpGet("https://rawscripts.net/raw/Prison-Life-Lua-Hammer-18934"))()
+  end    
+})
+
+Tab:AddButton({
+    Name = "Skeleton Skybox",
+    Callback = function()
+
+loadstring(game:HttpGet("https://pastebin.com/raw/zDEnCm4E"))()
+  end    
+})
+
+Tab:AddButton({
+    Name = "epik ak 47",
+    Callback = function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/sinret/rbxscript.com-scripts-reuploads-/main/ak47", true))()
+  end    
+})
+
+Tab:AddButton({
+    Name = "Steve ",
+    Callback = function()
+ 
+loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Steve-script-24707"))()
+  end    
+})
