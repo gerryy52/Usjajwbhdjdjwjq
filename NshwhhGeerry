@@ -202,7 +202,8 @@ loadstring(game:HttpGet("https://rawscripts.net/raw/Client-Replication-K00gui-v3
 Tab:AddButton({
     Name = "Ro-xploit",
     Callback = function()
-         		loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-RoXploit-by-KrystalTeam-9328"))()
+
+loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-RoXploit-by-KrystalTeam-9328"))()
   end    
 })
 
